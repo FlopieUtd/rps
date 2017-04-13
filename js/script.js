@@ -55,7 +55,7 @@ var decideOutcome = function () {
 	setTimeout(function(){ 
 		$(".outcome").css("visibility", "visible");
 		if (userChoice === computerChoice) {
-			$(".outcome").text("it's a tie!");
+			$(".outcome").text("it's a draw!");
 		} else if (userChoice === "rock" && computerChoice === "paper") {
 			$(".outcome").text("you lose!");
 		} else if (userChoice === "rock" && computerChoice === "scissors") {
