@@ -53,6 +53,10 @@ body {
 		font-size: 2em;
 	}
 
+	.title {
+		padding-bottom: 0.2em;
+	}
+
 	.option {
 		padding: 0.5em 0.5em;
 		margin: 1em 0.5em;
